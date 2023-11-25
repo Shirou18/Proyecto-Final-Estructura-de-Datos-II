@@ -32,14 +32,7 @@ namespace ProyectoEstructura
             Producto nuevoProducto = new Producto(nombre, cantidad, precio);
             inventarioArbol.Insertar(nuevoProducto);
 
-            if (nuevoProducto != null)
-            {
-                MostrarMensaje($"Producto agregado:\n{nuevoProducto}");
-            }
-            else
-            {
-                MostrarMensaje("Producto no agregado.");
-            }
+            MostrarMensaje($"Producto agregado:\n{nuevoProducto}");
 
             LimpiarCampos();
         }
