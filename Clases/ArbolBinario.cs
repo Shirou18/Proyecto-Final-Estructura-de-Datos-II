@@ -111,7 +111,7 @@ namespace ProyectoEstructura.Clases
 
             return false;
         }
-        // Método público para actualizar la cantidad y precio de un producto
+        // Método público para actualizar la cantidad y precio de un producto 
         private NodoArbol BuscarNodo(NodoArbol raiz, string nombre)
         {
             if (raiz == null || String.Compare(nombre, raiz.Producto.Nombre) == 0)
