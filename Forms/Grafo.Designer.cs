@@ -121,7 +121,7 @@
             lblNumeroGrafo.Name = "lblNumeroGrafo";
             lblNumeroGrafo.Size = new Size(178, 16);
             lblNumeroGrafo.TabIndex = 27;
-            lblNumeroGrafo.Text = "Cantidad de vertices del gráfo";
+            lblNumeroGrafo.Text = "Cantidad de vertices del grafo";
             // 
             // txtDestino
             // 
@@ -167,6 +167,7 @@
             // 
             // btnVertice
             // 
+            btnVertice.BackColor = SystemColors.ActiveCaption;
             btnVertice.Cursor = Cursors.Hand;
             btnVertice.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             btnVertice.Location = new Point(312, 27);
@@ -174,23 +175,28 @@
             btnVertice.Size = new Size(116, 30);
             btnVertice.TabIndex = 17;
             btnVertice.Text = "Agregar Vertices";
-            btnVertice.UseVisualStyleBackColor = true;
+            btnVertice.UseVisualStyleBackColor = false;
             btnVertice.Click += btnAgregarVertice_Click;
             // 
             // btnEliminar
             // 
+            btnEliminar.BackColor = Color.IndianRed;
             btnEliminar.Cursor = Cursors.Hand;
+            btnEliminar.FlatAppearance.BorderSize = 0;
+            btnEliminar.FlatAppearance.MouseDownBackColor = Color.LightGray;
             btnEliminar.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEliminar.ForeColor = Color.White;
             btnEliminar.Location = new Point(165, 98);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(86, 30);
             btnEliminar.TabIndex = 20;
             btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.UseVisualStyleBackColor = false;
             btnEliminar.Click += btnEliminar_Click;
             // 
             // btnComprobar
             // 
+            btnComprobar.BackColor = SystemColors.ActiveCaption;
             btnComprobar.Cursor = Cursors.Hand;
             btnComprobar.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             btnComprobar.Location = new Point(6, 98);
@@ -198,7 +204,7 @@
             btnComprobar.Size = new Size(86, 30);
             btnComprobar.TabIndex = 18;
             btnComprobar.Text = "Comprobar";
-            btnComprobar.UseVisualStyleBackColor = true;
+            btnComprobar.UseVisualStyleBackColor = false;
             btnComprobar.Click += btnComprobar_Click;
             // 
             // label2
@@ -214,6 +220,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.ActiveCaption;
             label1.Font = new Font("Tahoma", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(333, 9);
             label1.Name = "label1";

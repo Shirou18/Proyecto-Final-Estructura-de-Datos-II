@@ -55,6 +55,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.ActiveCaption;
             label1.Font = new Font("Tahoma", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(324, 22);
             label1.Name = "label1";
@@ -171,6 +172,7 @@
             // 
             // btnAgregar
             // 
+            btnAgregar.BackColor = SystemColors.ActiveCaption;
             btnAgregar.Cursor = Cursors.Hand;
             btnAgregar.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             btnAgregar.Location = new Point(261, 22);
@@ -178,23 +180,26 @@
             btnAgregar.Size = new Size(86, 30);
             btnAgregar.TabIndex = 17;
             btnAgregar.Text = "Agregar";
-            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.UseVisualStyleBackColor = false;
             btnAgregar.Click += btnAgregar_Click;
             // 
             // btnEliminar
             // 
+            btnEliminar.BackColor = Color.IndianRed;
             btnEliminar.Cursor = Cursors.Hand;
             btnEliminar.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEliminar.ForeColor = Color.White;
             btnEliminar.Location = new Point(179, 112);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(86, 30);
             btnEliminar.TabIndex = 20;
             btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.UseVisualStyleBackColor = false;
             btnEliminar.Click += btnEliminar_Click;
             // 
             // btnBuscar
             // 
+            btnBuscar.BackColor = SystemColors.ActiveCaption;
             btnBuscar.Cursor = Cursors.Hand;
             btnBuscar.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             btnBuscar.Location = new Point(52, 112);
@@ -202,7 +207,7 @@
             btnBuscar.Size = new Size(86, 30);
             btnBuscar.TabIndex = 18;
             btnBuscar.Text = "Buscar";
-            btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.UseVisualStyleBackColor = false;
             btnBuscar.Click += btnBuscar_Click;
             // 
             // txtImpresion

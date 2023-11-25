@@ -85,6 +85,7 @@
             // 
             // btnArbol
             // 
+            btnArbol.BackColor = Color.Silver;
             btnArbol.Cursor = Cursors.Hand;
             btnArbol.FlatAppearance.MouseDownBackColor = Color.SteelBlue;
             btnArbol.Location = new Point(482, 220);
@@ -92,19 +93,20 @@
             btnArbol.Size = new Size(126, 47);
             btnArbol.TabIndex = 4;
             btnArbol.Text = "Árbol Binario";
-            btnArbol.UseVisualStyleBackColor = true;
+            btnArbol.UseVisualStyleBackColor = false;
             btnArbol.Click += btnArbol_Click;
             // 
             // btnGrafo
             // 
+            btnGrafo.BackColor = Color.Silver;
             btnGrafo.Cursor = Cursors.Hand;
             btnGrafo.FlatAppearance.MouseDownBackColor = Color.SteelBlue;
             btnGrafo.Location = new Point(482, 310);
             btnGrafo.Name = "btnGrafo";
             btnGrafo.Size = new Size(126, 47);
             btnGrafo.TabIndex = 5;
-            btnGrafo.Text = "Gráfo de Lista";
-            btnGrafo.UseVisualStyleBackColor = true;
+            btnGrafo.Text = "Grafo de Lista";
+            btnGrafo.UseVisualStyleBackColor = false;
             btnGrafo.Click += btnGrafo_Click;
             // 
             // pictureBox3
