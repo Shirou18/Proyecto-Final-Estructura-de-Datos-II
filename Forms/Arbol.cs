@@ -17,7 +17,7 @@ namespace ProyectoEstructura
         #region Botones
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            // Validar que los campos obligatorios estén completos y que los campos numéricos sean válidos
+            // Validar que los campos obligatorios estén completos y que los campos numéricos sean válidos 
             if (string.IsNullOrWhiteSpace(txtNombreProducto.Text) || string.IsNullOrWhiteSpace(txtCantidad.Text) || string.IsNullOrWhiteSpace(txtPrecio.Text))
             {
                 MostrarMensaje("Complete todos los campos.");
